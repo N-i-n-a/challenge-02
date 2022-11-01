@@ -1,12 +1,31 @@
+:root {
+  --dark: #0b0c10;
+  --dark-grey: #1F2833;
+  --light-grey: #C5C6C7;
+  --aqua: #66FCF1;
+  --green: #45A29E;
+}
+
 * {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/2066.jpg);
+  background-size:cover;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
+  display: flex;
+  flex-direction:column;
 }
 
 h1,
@@ -15,9 +34,72 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  color: black;
+	letter-spacing: 1px;
+	font-size: 30px;
 }
 
 p {
   margin: 0;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+header h1 {
+margin: 30px, 20px;
+color: white;
+font-size: x-large;
+font-family: 'Poppins', sans-serif;
+padding-left: 15px;
+}
+
+nav{
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+nav a {
+text-decoration: none;
+color: white;
+font-size: large;
+margin-left: 15px;
+padding-right:25px;
+}
+
+.hero-banner{
+  display:flex;
+  height: 800px;
+  width:100%;
+  color: black;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-top:80px;
+  margin-left: 50px;
+}
+
+.page-section{
+  margin: 30px;
+  padding: 50px;
+  height: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  background-color: white;
+  color: white;
+}
+
+#about{
+
+}
+
+#work{
+
+}
+
+#contact {
+
 }
