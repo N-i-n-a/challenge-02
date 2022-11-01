@@ -76,11 +76,25 @@ padding-right:25px;
   display:flex;
   height: 800px;
   width:100%;
-  color: black;
-  background-color: white;
-  font-family: 'Poppins', sans-serif;
   margin-top:80px;
   margin-left: 50px;
+}
+
+.hero-banner h2 {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  float: left
+}
+
+/* make this into gradient */
+.name {
+  color: purple;
+  float: right;
+}
+
+#hero-img {
+  display: inline;
+  max-width: 350px;
 }
 
 .page-section{
